@@ -1,0 +1,33 @@
+# Resultados de compilación y paquetes generados
+build/
+dist/
+out/
+target/
+*.class
+
+# Configuración personal del editor
+.idea/
+.vscode/
+*.iml
+
+# Variables de entorno y configuración local
+.env
+.env.*
+!.env.example
+config/local.*
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Bases de datos locales y archivos cargados por usuarios
+data/local/
+uploads/
+backups/
+*.db
+*.sqlite
+*.sqlite3
