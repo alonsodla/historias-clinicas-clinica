@@ -31,3 +31,9 @@ backups/
 *.db
 *.sqlite
 *.sqlite3
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
